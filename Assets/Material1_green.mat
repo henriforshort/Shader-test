@@ -19,7 +19,13 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs: []
-    m_Floats: []
+    m_Floats:
+    - _ColorEnd: 1
+    - _ColorStart: 0
+    - _Offset: 0
+    - _Scale: 1
     m_Colors:
-    - _Color: {r: 1, g: 1, b: 1, a: 1}
+    - _Color: {r: 0, g: 1, b: 0.08090758, a: 1}
+    - _ColorA: {r: 1, g: 1, b: 1, a: 1}
+    - _ColorB: {r: 0.11779833, g: 1, b: 0, a: 1}
   m_BuildTextureStacks: []
