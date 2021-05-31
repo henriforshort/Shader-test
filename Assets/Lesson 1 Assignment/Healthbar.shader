@@ -76,7 +76,7 @@ Shader "Unlit/Healthbar" {
                 //float4 isInBorder = i.uv.x < .01 || i.uv.x > .99 || i.uv.y < .1 || i.uv.y > .9;
                 //col = lerp (col, red, isInBorder);
 
-                //return col;
+                return col;
 
                 float2 closestSegmentPoint = float2(
                     Clamp(_edgeSize, 1-_edgeSize, i.uv.x),
