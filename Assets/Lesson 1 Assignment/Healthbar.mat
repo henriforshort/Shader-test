@@ -23,12 +23,31 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _edgeColor:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _tex:
         m_Texture: {fileID: 2800000, guid: aca731d68ce137f448350a85bf89e6bf, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - tex:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _edgeSize: 0.107
-    - _hp: 0.155
-    m_Colors: []
+    - _currentHp: 10.27
+    - _edgeSize: 0.46
+    - _gapWidth: 0.0113
+    - _height: 0.155
+    - _hp: 1
+    - _hpPerChunk: 74
+    - _maxHp: 1414
+    - _roundSize: 0.5
+    - _width: 1
+    - edgeSize: 0.1
+    - hp: 0.5
+    m_Colors:
+    - _edgeColor: {r: 0, g: 0.7474167, b: 0.9647059, a: 1}
+    - _gapColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0.50980395}
   m_BuildTextureStacks: []

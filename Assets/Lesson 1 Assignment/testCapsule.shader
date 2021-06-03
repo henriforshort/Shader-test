@@ -46,8 +46,6 @@ Shader "Unlit/testCapsule" {
                     clamp(_size, 1-_size, i.uv.x),
                     clamp(_size, 1-_size, i.uv.y));
                 float distance = length(closestSegmentPoint - i.uv);
-                //return float4(i.uv, 0, 1);
-                //return float4(closestSegmentPoint, 0, 1);
                 return distance < _size;
             }
             ENDCG
