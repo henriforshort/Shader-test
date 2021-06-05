@@ -36,18 +36,27 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     m_Floats:
-    - _currentHp: 10.27
-    - _edgeSize: 0.46
-    - _gapWidth: 0.0113
-    - _height: 0.155
+    - _currentHp: 286.25
+    - _durationBetweenFlashes: 1
+    - _edgeSize: 0.4
+    - _flashDuration: 0.5
+    - _flashesPerSecond: 1
+    - _gapWidth: 0.015
+    - _height: 0.1
     - _hp: 1
-    - _hpPerChunk: 74
-    - _maxHp: 1414
+    - _hpPerChunk: 1000
+    - _hpPerSmallChunk: 100
+    - _hpPersmallChunk: 0
+    - _maxHp: 2285
     - _roundSize: 0.5
+    - _smallGapWidth: 0.005
     - _width: 1
     - edgeSize: 0.1
     - hp: 0.5
     m_Colors:
+    - _bgColor: {r: 0, g: 0, b: 0, a: 0.5019608}
     - _edgeColor: {r: 0, g: 0.7474167, b: 0.9647059, a: 1}
+    - _flashColor: {r: 1, g: 1, b: 1, a: 1}
     - _gapColor: {r: 0.5283019, g: 0.5283019, b: 0.5283019, a: 0.50980395}
+    - _smallGapColor: {r: 1, g: 1, b: 1, a: 1}
   m_BuildTextureStacks: []
